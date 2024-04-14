@@ -1,4 +1,4 @@
-# Plano de Testes
+# Plano de Testes Manuais
 
 Este documento contém o plano de testes para os cenários de teste do sistema OrangeHRM.
 
@@ -98,6 +98,10 @@ O OrangeHRM é uma plataforma de gerenciamento de recursos humanos (HRM) que ofe
 
 
 
+<br><br>
+
 > [!WARNING]
 > Gostaria de esclarecer que este sistema foi usado apenas para fins educacionais na área de Qualidade de Software. Não havia nenhuma intenção maliciosa por trás dessa utilização, mas sim o propósito de realizar testes manuais e automatizados dos processos de login e recuperação de senha.
+
+
 
