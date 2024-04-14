@@ -141,3 +141,10 @@ Os resultados dos testes automatizados estão disponíveis no [relatório Cypres
 > [!WARNING]
 > Gostaria de esclarecer que este sistema foi usado apenas para fins educacionais na área de Qualidade de Software. Não havia nenhuma intenção maliciosa por trás dessa utilização, mas sim o propósito de realizar testes manuais e automatizados dos processos de login e recuperação de senha.
 
+
+
+<br>
+
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge"/>
+</p>
