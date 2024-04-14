@@ -89,13 +89,50 @@ O OrangeHRM é uma plataforma de gerenciamento de recursos humanos (HRM) que ofe
 
 ## Testes Automatizados com Cypress
 
-Os mesmos cenários descritos acima foram automatizados utilizando a ferramenta Cypress. Isso nos permitiu executar os testes de forma rápida e repetível, garantindo a consistência dos resultados em diferentes ambientes.
+Os mesmos cenários descritos nos testes manuais foram automatizados utilizando a ferramenta Cypress. Essa abordagem permitiu que os testes fossem executados de forma rápida e repetível, garantindo a consistência dos resultados em diferentes ambientes.
 
-A visualização do relatório dos testes automatizados está disponível [aqui](https://fabiopassos10.github.io/OrangeHRM--Testes/).
+### Objetivo dos Testes Automatizados
+
+Os testes foram automatizados com o objetivo de aumentar a eficiência do processo de teste e garantir a qualidade do sistema OrangeHRM. Ao automatizar os cenários de teste, pudemos economizar tempo e recursos, além de identificar rapidamente regressões e problemas potenciais.
+
+### Descrição dos Cenários Automatizados
+
+Cada cenário de teste descrito anteriormente foi automatizado usando o Cypress. Abaixo estão alguns exemplos de como os cenários foram implementados:
+
+#### Login com Sucesso
+
+O cenário de login com sucesso foi automatizado usando as seguintes etapas:
+- Preenchimento do formulário de login com credenciais válidas.
+- Clique no botão de login.
+- Verificação da página inicial após o login bem-sucedido.
+
+#### Login com Credenciais Inválidas
+
+Para o cenário de login com credenciais inválidas, o seguinte procedimento foi seguido:
+- Preenchimento do formulário de login com credenciais inválidas.
+- Clique no botão de login.
+- Verificação da mensagem de erro exibida após tentar fazer login com credenciais inválidas.
 
 
+#### Tentativa de Recuperação de Senha
 
-<br>
+O cenário de tentativa de recuperação de senha foi automatizado da seguinte maneira:
+- Navegação para a tela de recuperação de senha.
+- Preenchimento do campo "Username" com informações válidas.
+- Clique no botão "Resetar senha".
+- Verificação do envio de um e-mail de recuperação para o endereço cadastrado.
+
+#### Cancelamento da Recuperação de Senha
+
+O cenário de cancelamento da recuperação de senha foi automatizado com as seguintes etapas:
+- Navegação para a tela de recuperação de senha.
+- Clique no botão "Cancelar".
+- Verificação do redirecionamento para a tela de login após o cancelamento.
+
+### Relatórios e Resultados
+
+Os resultados dos testes automatizados estão disponíveis no [relatório Cypress](https://fabiopassos10.github.io/OrangeHRM--Testes/). Durante a execução dos testes, foram registradas métricas importantes, como taxa de sucesso, tempo de execução e número de falhas, proporcionando insights valiosos sobre a qualidade do sistema.
+
 <br>
 <br>
 <br>
@@ -103,3 +140,4 @@ A visualização do relatório dos testes automatizados está disponível [aqui]
 
 > [!WARNING]
 > Gostaria de esclarecer que este sistema foi usado apenas para fins educacionais na área de Qualidade de Software. Não havia nenhuma intenção maliciosa por trás dessa utilização, mas sim o propósito de realizar testes manuais e automatizados dos processos de login e recuperação de senha.
+
