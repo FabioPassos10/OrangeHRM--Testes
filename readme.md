@@ -35,7 +35,10 @@ Este documento contém o plano de testes para os cenários de teste do sistema O
 **Descrição:**
 **Dado** que eu esteja na tela de recuperação de senha. **Quando** "Username" for preenchido corretamente e clicar no botão "Resetar senha". **Então** o sistema deve enviar um email para de recuperação para o email cadastrado e uma tela informativa deve ser exibida.
 
-**Status:** PASSOU ✅
+**Status:** 
+
+> [!NOTE]
+> PASSOU ✅
 
 **Evidência:** 📸
 
