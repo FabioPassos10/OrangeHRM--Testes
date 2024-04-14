@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.799" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-04-14T16:05:23" tests="0" file="cypress\e2e\forgetPs.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="002 - Esqueci a senha" timestamp="2024-04-14T16:05:23" tests="2" time="17.796" failures="0">
+    <testcase name="002 - Esqueci a senha CT001.002 - Tentativa de recuperação de senha" time="8.649" classname="CT001.002 - Tentativa de recuperação de senha">
+    </testcase>
+    <testcase name="002 - Esqueci a senha CT002.002 - Cancelar a recuperação de senha" time="6.514" classname="CT002.002 - Cancelar a recuperação de senha">
+    </testcase>
+  </testsuite>
+</testsuites>
