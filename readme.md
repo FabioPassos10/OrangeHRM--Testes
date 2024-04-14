@@ -2,6 +2,13 @@
 
 Este documento contém o plano de testes para os cenários de teste do sistema OrangeHRM.
 
+# Participantes
+
+
+> [!IMPORTANT]
+> Fabio Eloy Passos 
+
+
 ## Cenário 001 - Login
 
 ### Caso de Teste CT001.001 - Login com sucesso (usuário e senha corretos)
@@ -9,7 +16,10 @@ Este documento contém o plano de testes para os cenários de teste do sistema O
 **Descrição:** 📃
 **Dado** que eu esteja na tela de login. **Quando** preencher "username" corretamente e o campo "password" corretamente e apertar o botão de "login". **Então** o sistema deve acessar a tela inicial.
 
-**Status:** PASSOU ✅
+**Status:** 
+
+> [!NOTE]
+> PASSOU ✅
 
 **Evidência:** 📸
 ![Imagem login](./Caso%20de%20Testes/img/login.png)
@@ -21,7 +31,10 @@ Este documento contém o plano de testes para os cenários de teste do sistema O
 **Descrição:** 📃
 **Dado** que eu esteja na tela de login. **Quando** preencher "username" inválido e o campo "password" inválido e apertar o botão de "login". **Então** o sistema deve retornar a mensagem "Invalid credentials".
 
-**Status:** PASSOU ✅
+**Status:** 
+
+> [!NOTE]
+> PASSOU ✅
 
 **Evidência:** 📸
 
@@ -50,7 +63,10 @@ Este documento contém o plano de testes para os cenários de teste do sistema O
 **Descrição:** 📃
 **Dado** que eu esteja na tela de recuperação de senha. **Quando** clicar no botão "Cancelar". **Então** o sistema deve retornar a Tela de login.
 
-**Status:** PASSOU ✅
+**Status:** 
+
+> [!NOTE]
+> PASSOU ✅
 
 **Evidência:** 📸
 
