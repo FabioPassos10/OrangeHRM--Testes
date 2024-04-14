@@ -2,6 +2,15 @@
 
 Este documento contém o plano de testes para os cenários de teste do sistema OrangeHRM.
 
+# Sistema
+
+O OrangeHRM é uma plataforma de gerenciamento de recursos humanos (HRM) que oferece um ambiente robusto e flexível para testes. Com ele, você pode explorar e validar várias funcionalidades relacionadas à gestão de pessoal.
+
+|        Link          |
+|  ------------------- |
+| [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login) |
+
+
 # Participantes
 
 
@@ -85,3 +94,10 @@ Este documento contém o plano de testes para os cenários de teste do sistema O
 
 ![Login cancelado](./Caso%20de%20Testes/img/cancel.png)
 ![tela login](./Caso%20de%20Testes/img/telaLogin.png)
+
+
+
+
+> [!WARNING]
+> Gostaria de esclarecer que este sistema foi usado apenas para fins educacionais na área de Qualidade de Software. Não havia nenhuma intenção maliciosa por trás dessa utilização, mas sim o propósito de realizar testes manuais e automatizados dos processos de login e recuperação de senha.
+
