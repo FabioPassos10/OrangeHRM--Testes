@@ -2,21 +2,18 @@
 
 Este documento contém o plano de testes para os cenários de teste do sistema OrangeHRM.
 
-# Sistema
+## Sistema
 
 O OrangeHRM é uma plataforma de gerenciamento de recursos humanos (HRM) que oferece um ambiente robusto e flexível para testes. Com ele, você pode explorar e validar várias funcionalidades relacionadas à gestão de pessoal.
 
-|        Link          |
-|  ------------------- |
+| Link          |
+| ------------- |
 | [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login) |
 
-
-# Participantes
-
+## Participantes
 
 > [!IMPORTANT]
 > Fabio Eloy Passos 
-
 
 ## Cenário 001 - Login
 
@@ -33,11 +30,9 @@ O OrangeHRM é uma plataforma de gerenciamento de recursos humanos (HRM) que ofe
 **Evidência:** 📸
 
 <br>
-<br>
 
 ![Imagem login](./Caso%20de%20Testes/img/login.png)
 ![Imagem dashbord apos login](./Caso%20de%20Testes/img/Dashbord.png)
-
 
 ### Caso de Teste CT001.002 - Login com credenciais inválidas
 
@@ -52,7 +47,6 @@ O OrangeHRM é uma plataforma de gerenciamento de recursos humanos (HRM) que ofe
 **Evidência:** 📸
 
 <br>
-<br>
 
 ![Login invalido](./Caso%20de%20Testes/img/loginInvalida.png)
 ![mensagem de alerta](./Caso%20de%20Testes/img/image.png)
@@ -61,7 +55,7 @@ O OrangeHRM é uma plataforma de gerenciamento de recursos humanos (HRM) que ofe
 
 ### Caso de Teste CT001.002 - Tentativa de recuperação de senha
 
-**Descrição:**
+**Descrição:** 📃
 **Dado** que eu esteja na tela de recuperação de senha. **Quando** "Username" for preenchido corretamente e clicar no botão "Resetar senha". **Então** o sistema deve enviar um email para de recuperação para o email cadastrado e uma tela informativa deve ser exibida.
 
 **Status:** 
@@ -71,7 +65,6 @@ O OrangeHRM é uma plataforma de gerenciamento de recursos humanos (HRM) que ofe
 
 **Evidência:** 📸
 
-<br>
 <br>
 
 ![Resetar senha](./Caso%20de%20Testes/img/resetar.png)
@@ -90,18 +83,23 @@ O OrangeHRM é uma plataforma de gerenciamento de recursos humanos (HRM) que ofe
 **Evidência:** 📸
 
 <br>
-<br>
 
 ![Login cancelado](./Caso%20de%20Testes/img/cancel.png)
 ![tela login](./Caso%20de%20Testes/img/telaLogin.png)
 
+## Testes Automatizados com Cypress
+
+Os mesmos cenários descritos acima foram automatizados utilizando a ferramenta Cypress. Isso nos permitiu executar os testes de forma rápida e repetível, garantindo a consistência dos resultados em diferentes ambientes.
+
+A visualização do relatório dos testes automatizados está disponível [aqui](https://fabiopassos10.github.io/OrangeHRM--Testes/).
 
 
 
-<br><br>
+<br>
+<br>
+<br>
+<br>
+
 
 > [!WARNING]
 > Gostaria de esclarecer que este sistema foi usado apenas para fins educacionais na área de Qualidade de Software. Não havia nenhuma intenção maliciosa por trás dessa utilização, mas sim o propósito de realizar testes manuais e automatizados dos processos de login e recuperação de senha.
-
-
-
