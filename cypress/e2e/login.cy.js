@@ -3,7 +3,9 @@ describe('001 - Login', () => {
         cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     });
 
+
     it('CT001.001 - Login com sucesso (usuário e senha corretos)', () => {
+  
         cy.url().should('eq', 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
         cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('Admin');
         cy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').type('admin123');
@@ -15,19 +17,23 @@ describe('001 - Login', () => {
         // Espera até que algum elemento na página de dashboard seja visível antes de tirar a captura de tela
         cy.get('.oxd-topbar-header-breadcrumb > .oxd-text').should('be.visible').then(() => {
             cy.wait(3000);
-            cy.screenshot('Login com sucesso', { overwrite: true, capture: 'viewport' });
+            cy.screenshot('Login com sucesso', { overwrite: true, capture: 'viewport', capture: 'runner' });
         });
+  
     });
     
 
     it('CT0012.001 - Login com credenciais inválidas.', () => {
         cy.url().should('eq', 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
+
         cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('A');
+        cy.wait(1000);
         cy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').type('a');
+        cy.wait(1000);
         cy.get('.oxd-button').click();
+        cy.wait(1000);
         cy.get('.oxd-alert').should('contain.text', 'Invalid credentials');
 
-
-        cy.screenshot('Login inválido', {overwrite: true})
+        cy.screenshot('Login inválido', {overwrite: true, capture: 'runner'})
     });
 });
