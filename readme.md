@@ -131,7 +131,7 @@ O cenário de cancelamento da recuperação de senha foi automatizado com as seg
 
 ### Relatórios e Resultados 📝
 
-Os resultados dos testes automatizados estão disponíveis no [relatório Cypress](https://fabiopassos10.github.io/OrangeHRM--Testes/){:target="_blank"}. Durante a execução dos testes, foram registradas métricas importantes, como taxa de sucesso, tempo de execução e número de falhas, proporcionando insights valiosos sobre a qualidade do sistema.
+Os resultados dos testes automatizados estão disponíveis no [relatório Cypress](https://fabiopassos10.github.io/OrangeHRM--Testes/). Durante a execução dos testes, foram registradas métricas importantes, como taxa de sucesso, tempo de execução e número de falhas, proporcionando insights valiosos sobre a qualidade do sistema.
 
 
 <br>
