@@ -22,6 +22,10 @@ Este documento contém o plano de testes para os cenários de teste do sistema O
 > PASSOU ✅
 
 **Evidência:** 📸
+
+<br>
+<br>
+
 ![Imagem login](./Caso%20de%20Testes/img/login.png)
 ![Imagem dashbord apos login](./Caso%20de%20Testes/img/Dashbord.png)
 
@@ -37,6 +41,9 @@ Este documento contém o plano de testes para os cenários de teste do sistema O
 > PASSOU ✅
 
 **Evidência:** 📸
+
+<br>
+<br>
 
 ![Login invalido](./Caso%20de%20Testes/img/loginInvalida.png)
 ![mensagem de alerta](./Caso%20de%20Testes/img/image.png)
@@ -55,6 +62,9 @@ Este documento contém o plano de testes para os cenários de teste do sistema O
 
 **Evidência:** 📸
 
+<br>
+<br>
+
 ![Resetar senha](./Caso%20de%20Testes/img/resetar.png)
 ![Tela informativa](./Caso%20de%20Testes/img/info.png)
 
@@ -69,6 +79,9 @@ Este documento contém o plano de testes para os cenários de teste do sistema O
 > PASSOU ✅
 
 **Evidência:** 📸
+
+<br>
+<br>
 
 ![Login cancelado](./Caso%20de%20Testes/img/cancel.png)
 ![tela login](./Caso%20de%20Testes/img/telaLogin.png)
